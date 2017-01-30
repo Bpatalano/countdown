@@ -33,7 +33,10 @@ let changeTime = () => {
     let minute = Math.floor(newTime/60000);
     newTime = newTime % 60000;
     let second = Math.floor(newTime/1000);
-    if (!isNaN(newTime)) {
+    if (newTime <= 0) {
+      return;
+    }
+    else if (!isNaN(newTime)) {
       updateClock(day, hour, minute, second);
     }
   }

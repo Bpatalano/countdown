@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#content {
+  height: 100%;
+}
+
+#count-border {
+  width: 636px;
+  left: 25%;
+  height: 128px;
+  top: 37.5%;
+  position: absolute;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#count-container {
+  margin: auto;
+}
+
+.count-box {
+  width: 125px;
+  display: inline-block;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  height: 95px;
+  margin-top: 1%;
+  margin-left: 15px;
+  text-align: center;
+  padding: 15px 5px 5px 5px;
+}
+
+.count-box > input {
+  border: 0px;
+  width: 100px;
+  top: 15px;
+  font-size: inherit;
+  text-align: center;
+  padding-left: 20px;
+  font-size: 42px;
+}
+
+.label {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #aaaaaa;
+}
